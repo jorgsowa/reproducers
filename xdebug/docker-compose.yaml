@@ -1,0 +1,6 @@
+services:
+  app-server:
+    build:
+      dockerfile: Dockerfile.alpine
+    volumes:
+      - './:/var/www/html'
